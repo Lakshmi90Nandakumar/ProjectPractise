@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace ProjectPractise.Collection
 {
-    internal class ListEx
+    public class ListEx
     {
+        public static void main()
+        {
+            List<string> list = new List<string>();
+            list.Add("Hi");
+        }
     }
 }

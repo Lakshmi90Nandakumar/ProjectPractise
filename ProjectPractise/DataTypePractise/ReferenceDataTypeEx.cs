@@ -24,7 +24,7 @@ namespace ProjectPractise.DataTypePractise
     }
     public class ImplementEx
     {
-        public static void Main(string[] args) 
+        public static void main(string[] args) 
         {
 
 
