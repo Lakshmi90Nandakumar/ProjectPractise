@@ -18,7 +18,7 @@ namespace ProjectPractise.DataTypePractise
         static long l;//declaring short variable
         static float f;//declaring short variable
         static double d;//declaring short variable
-        public static void Main()
+        public static void main()
         {
             Console.WriteLine(rs);//default value for boolean type
             rs = Convert.ToBoolean(Console.ReadLine());//converting string into boolean type
@@ -27,10 +27,14 @@ namespace ProjectPractise.DataTypePractise
             Console.WriteLine(a);//default value for int type
             c = Convert.ToChar(Console.ReadLine());
             Console.WriteLine(c);//default value for character type
+            Console.WriteLine(b);//defaul value foe unsigned integer
+            b=Convert.ToUInt16(Console.ReadLine());//converting string into unsigned integer
             Console.WriteLine(b);
             Console.WriteLine(s);//default value for sbyte type
+
             s = -90;//storing signed data
             Console.WriteLine(s);
+            s=Convert.ToSByte(Console.ReadLine());
             s1 = -87;
             Console.WriteLine(s1);
             s2 = 40;
