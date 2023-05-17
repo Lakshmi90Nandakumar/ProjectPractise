@@ -23,7 +23,7 @@ namespace ProjectPractise.DataTypePractise
     }
     public class UserDefinedValueType
     {
-        public static void Main(string[] args) 
+        public static void main(string[] args) 
         {
             Console.WriteLine(WeekDays.SUNDAY);
             int a =(int)WeekDays.TUESDAY;

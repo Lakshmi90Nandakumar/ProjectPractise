@@ -8,10 +8,18 @@ namespace ProjectPractise.Collection
 {
     public class ListEx
     {
-        public static void main()
+        public static void Main()
         {
             List<string> list = new List<string>();
             list.Add("Hi");
+            SortedDictionary<int,string> sd=new SortedDictionary<int,string>();
+            sd.Add(101, "lakshmi");
+            sd.Add(102, "rajeev");
+            foreach(int s in sd.Keys)
+            {
+                if(s==101)
+                    Console.WriteLine(sd.Values);
+            }
         }
     }
 }

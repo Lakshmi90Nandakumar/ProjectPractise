@@ -7,4 +7,19 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Extended.Wpf.Toolkit" Version="4.5.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="3.0.2" />
+    <PackageReference Include="MSTest.TestFramework" Version="3.0.2" />
+    <PackageReference Include="Selenium.Support" Version="3.141.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="113.0.5672.2400" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="RMGYantra\Generic\" />
+    <Folder Include="RMGYantra\MSTest\" />
+    <Folder Include="RMGYantra\ObjectRepository\" />
+  </ItemGroup>
+
 </Project>
